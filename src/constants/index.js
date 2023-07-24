@@ -46,7 +46,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Front-End Developer",
     icon: mobile,
   },
   {
@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "MERN Stack Developer",
     icon: creator,
   },
 ];
@@ -116,24 +116,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "MERN Stack Developer",
+    company_name: "Contract Based Project Work & Learning",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "All Time",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -142,11 +129,11 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "React.js Developer",
+    company_name: "DREAM SQUAD LTD",
+    icon: starbucks,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "March 2022 - July 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -154,19 +141,8 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+ 
+  
 ];
 
 const testimonials = [
@@ -198,9 +174,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Modern Furniture",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a mini warehouse based website. There are lot of collection of Furniture This website can maintain a small warehouse business There are no admin dashboard. so a simple user can delete, add products etc.There was multi-functional Login system email-password and google sign in. so an user can easily sign in with his choice",
     tags: [
       {
         name: "react",
@@ -214,43 +190,55 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "daisyui",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "pink-text-gradient",
+      },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SakhawatJony/Modern-Furniture-Website-client-side",
   },
   {
-    name: "Job IT",
+    name: "Private Tutor",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that enables users to This is a personal private-Tutor service provider application. An user can buy any service by his choice. There are some services for a private tutor. This application has no admin dashboard. This is a react based static application.There was multi-functional Login system email-password and google sign in so an user can easily sign in with his choice.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Bootstrap",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SakhawatJony/Private-Tutor",
   },
   {
-    name: "Trip Guide",
+    name: "Drink Hospital",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Web application that enables users to This is a Drink Hospital related service provider application.A responsive web application is providing Hospital services.Using Firebase Authentication for user login and register.Users can appoint Doctor and get to know more details about services.you can choice your best any doctors",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Bootstrap",
         color: "green-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "pink-text-gradient",
       },
       {
         name: "css",
@@ -258,7 +246,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/SakhawatJony/Hospital_Releted_WebSite",
   },
 ];
 
