@@ -2,6 +2,8 @@ import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
+import myResume from "../assets/company/SAKHAWAT_ HOSEN_WEB_DEVOLOPER_MY_RESUME (1).pdf"
+
 
 const Hero = () => {
   return (
@@ -22,9 +24,13 @@ const Hero = () => {
          Professional Junior MERN stack Developer <br className='sm:block hidden' />
           Knock of building applications with <br className='sm:block hidden'  /> front and back end operations.
           </p>
-          <a href="file.doc"> <button  className="mt-4 p-2 rounded bg-white hover:bg-sky-700 text-black   font-bold">Download Resume</button></a> 
-        </div>
+          <div>
+      <button  className="mt-2 p-2 rounded bg-white hover:bg-sky-700 text-black font-bold"> <a href={myResume}  download>Get Resume</a></button>
       </div>
+        </div>
+        
+      </div>
+      
 
       <ComputersCanvas />
 

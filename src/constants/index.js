@@ -116,20 +116,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "MERN Stack Developer",
-    company_name: "Contract Based Project Work & Learning",
-    icon: tesla,
+    title: "Front End Developer",
+    company_name: "Fly Far Tech",
+    icon: reactjs,
     iconBg: "#E6DEDD",
-    date: "All Time",
+    date: "September 2023 - Present ",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "OTA (online travel agency) portal design and functionality",
+      "Use the OTA portal to implement flight APIs",
+      "Provide the front-end functionality for the internal ERP system",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "React.js Developer",
+    title: "Front End Developer",
     company_name: "DREAM SQUAD LTD",
     icon: starbucks,
     iconBg: "#383E56",
@@ -141,6 +142,20 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
+  {
+    title: "MERN Stack Developer",
+    company_name: "Contract Based Project Work & Learning",
+    icon: nodejs,
+    iconBg: "#E6DEDD",
+    date: "All Time",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  
  
   
 ];

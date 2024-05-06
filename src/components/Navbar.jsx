@@ -34,6 +34,7 @@ const Navbar = () => {
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+        
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -61,7 +62,11 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+    
+    
+    
         </ul>
+        
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img

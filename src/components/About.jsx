@@ -41,6 +41,7 @@ const About = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
+        
       </motion.div>
 
       <motion.p
@@ -52,7 +53,10 @@ const About = () => {
          quick learner and collaborate closely with clients to create efficient,
          scalable, and user-friendly solutions that solve real-world problems. 
          Let's work together to bring your ideas to life!
+         
       </motion.p>
+      
+      
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
